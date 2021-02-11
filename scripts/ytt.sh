@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATASOURCE=github-releases
-REPO=opencontainers/runc
-VERSION=1.0.0-rc93
+REPO=vmware-tanzu/carvel-ytt
+VERSION=0.30.0
 
 brew bump-formula-pr "--version=${VERSION}" nicholasdille/tap/ytt
