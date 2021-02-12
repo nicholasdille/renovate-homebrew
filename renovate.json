@@ -40,12 +40,21 @@
     },
     {
       "packageNames": [
+        "AkihiroSuda/nerdctl",
         "containerd/containerd",
+        "containerd/stargz-snapshotter",
+        "containernetworking/plugins",
+        "docker/buildx",
         "docker/cli",
         "kubermatic/kubeone",
+        "kubernetes-sigs/cluster-api",
+        "kubernetes-sigs/cluster-api-provider-aws",
+        "moby/buildkit",
         "opencontainers/runc",
+        "regclient/regclient",
         "rootless-containers/rootlesskit",
         "rootless-containers/slirp4netns",
+        "vmware-tanzu/carvel-kapp",
         "vmware-tanzu/carvel-ytt"
       ],
       "extractVersion": "^v(?<version>.+)$"
