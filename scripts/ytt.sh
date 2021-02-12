@@ -4,4 +4,5 @@ DATASOURCE=github-releases
 REPO=vmware-tanzu/carvel-ytt
 VERSION=0.30.0
 
-brew bump-formula-pr "--version=${VERSION}" nicholasdille/tap/ytt
+brew bump-formula-pr "--version=${VERSION}" --strict --no-browse --no-fork nicholasdille/tap/ytt
+brew bump-formula-pr "--version=${VERSION}" --strict --no-browse --no-fork nicholasdille/tap/ytt-bin

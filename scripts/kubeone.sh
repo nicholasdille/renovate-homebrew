@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=kubermatic/kubeone
-VERSION=1.2.0-beta.0
+VERSION=1.1.0
 
 # Update url
 for FORMULA in kubeone-bin; do

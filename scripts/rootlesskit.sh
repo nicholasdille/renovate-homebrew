@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=rootless-containers/rootlesskit
-VERSION=0.13.0
+VERSION=0.12.0
 
 # Update url
 for FORMULA in rootlesskit-bin; do
