@@ -2,4 +2,4 @@
 
 DATASOURCE=github-releases
 REPO=kubernetes-sigs/cluster-api
-VERSION=0.3.13
+VERSION=0.3.14
