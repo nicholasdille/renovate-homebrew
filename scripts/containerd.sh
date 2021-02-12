@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=containerd/containerd
-VERSION=1.4.2
+VERSION=1.4.3
 
 # Update url
 for FORMULA in containerd-bin; do
