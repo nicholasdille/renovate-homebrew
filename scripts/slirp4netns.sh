@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=rootless-containers/slirp4netns
-VERSION=1.1.7
+VERSION=1.1.8
 
 # Update url
 for FORMULA in slirp4netns-bin; do
