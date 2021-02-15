@@ -2,4 +2,11 @@
 
 DATASOURCE=github-releases
 REPO=openfaas/faasd
-VERSION=0.10.1
+VERSION=0.10.2
+
+brew bump-formula-pr \
+    "--version=${VERSION}" \
+    --strict \
+    --no-browse \
+    --no-fork \
+nicholasdille/tap/faasd-bin
