@@ -8,12 +8,12 @@ brew bump-formula-pr \
     "--version=${VERSION}" \
     --strict \
     --no-browse \
-    --no-fork --write \
+    --no-fork \
     nicholasdille/tap/rootlesskit
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     --strict \
     --no-browse \
-    --no-fork --write \
+    --no-fork \
     nicholasdille/tap/rootlesskit-bin
