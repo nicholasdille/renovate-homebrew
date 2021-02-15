@@ -8,6 +8,5 @@ brew bump-formula-pr \
     "--version=${VERSION}" \
     --strict \
     --no-browse \
-    --no-fork --write \
+    --no-fork \
     nicholasdille/tap/cni-bin
-# not a valid tar file
