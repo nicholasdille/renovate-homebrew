@@ -8,7 +8,12 @@ brew bump-formula-pr \
     "--version=${VERSION}" \
     --strict \
     --no-browse \
-    --no-fork --write \
-    nicholasdille/tap/regclient-bin
+    --no-fork \
+    nicholasdille/tap/regclient
 
-# Update resource SHA256
+brew bump-formula-pr \
+    "--version=${VERSION}" \
+    --strict \
+    --no-browse \
+    --no-fork \
+    nicholasdille/tap/regclient-bin
