@@ -8,12 +8,12 @@ brew bump-formula-pr \
     "--version=${VERSION}" \
     --strict \
     --no-browse \
-    --no-fork --write \
+    --no-fork \
     nicholasdille/tap/clusterawsadm
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     --strict \
     --no-browse \
-    --no-fork --write \
+    --no-fork \
     nicholasdille/tap/clusterawsadm-bin
