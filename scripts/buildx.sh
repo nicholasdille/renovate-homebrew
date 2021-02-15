@@ -9,5 +9,4 @@ brew bump-formula-pr \
     --strict \
     --no-browse \
     --no-fork \
-    nicholasdille/tap/ytt-bin
-# Error: buildx-bin: the current URL requires specifying a `--revision=` argument.
+    nicholasdille/tap/buildx-bin
