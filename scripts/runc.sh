@@ -10,10 +10,3 @@ brew bump-formula-pr \
     --no-browse \
     --no-fork \
     nicholasdille/tap/runc
-
-brew bump-formula-pr \
-    "--version=${VERSION}" \
-    --strict \
-    --no-browse \
-    --no-fork \
-    nicholasdille/tap/runc-bin

@@ -10,10 +10,3 @@ brew bump-formula-pr \
     --no-browse \
     --no-fork \
     nicholasdille/tap/slirp4netns
-
-brew bump-formula-pr \
-    "--version=${VERSION}" \
-    --strict \
-    --no-browse \
-    --no-fork \
-    nicholasdille/tap/slirp4netns-bin

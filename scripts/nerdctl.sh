@@ -9,4 +9,4 @@ brew bump-formula-pr \
     --strict \
     --no-browse \
     --no-fork \
-    nicholasdille/tap/nerdctl-bin
+    nicholasdille/tap/nerdctl
