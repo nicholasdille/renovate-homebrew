@@ -10,10 +10,3 @@ brew bump-formula-pr \
     --no-browse \
     --no-fork \
     nicholasdille/tap/regclient
-
-brew bump-formula-pr \
-    "--version=${VERSION}" \
-    --strict \
-    --no-browse \
-    --no-fork \
-    nicholasdille/tap/regclient-bin
