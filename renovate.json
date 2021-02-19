@@ -40,10 +40,12 @@
     },
     {
       "packageNames": [
+        "AkihiroSuda/cni-isolation",
         "AkihiroSuda/nerdctl",
         "containerd/containerd",
         "containerd/stargz-snapshotter",
         "containernetworking/plugins",
+        "containers/fuse-overlayfs",
         "docker/buildx",
         "docker/cli",
         "kubermatic/kubeone",
