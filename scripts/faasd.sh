@@ -9,4 +9,4 @@ brew bump-formula-pr \
     --strict \
     --no-browse \
     --no-fork \
-    nicholasdille/tap/faasd-bin
+    nicholasdille/tap/faasd
