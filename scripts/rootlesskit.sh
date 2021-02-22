@@ -9,4 +9,5 @@ brew bump-formula-pr \
     --strict \
     --no-browse \
     --no-fork \
+    --force \
     nicholasdille/tap/rootlesskit
