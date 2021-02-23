@@ -48,6 +48,7 @@
         "containers/fuse-overlayfs",
         "docker/buildx",
         "docker/cli",
+        "docker/compose-cli",
         "kubermatic/kubeone",
         "kubernetes-sigs/cluster-api",
         "kubernetes-sigs/cluster-api-provider-aws",
