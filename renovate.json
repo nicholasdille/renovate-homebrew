@@ -4,6 +4,10 @@
     "config:base"
   ],
 
+  "enabledManagers": [
+    "regex"
+  ],
+
   "major": {
     "labels": ["type/renovate", "bump/major"]
   },
