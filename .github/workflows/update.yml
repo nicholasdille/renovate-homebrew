@@ -17,6 +17,16 @@ jobs:
 
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
+      - name: Set up tap
+        run: |
+          brew tap nicholasdille/tap
+
+      - name: Set up git
+        uses: Homebrew/actions/git-user-config@master
       
       - name: Check token
         env:
