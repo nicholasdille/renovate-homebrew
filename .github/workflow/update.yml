@@ -12,13 +12,15 @@ jobs:
 
   build:
     name: Update formula
-    # ...and not contains ready-for/testing
-    if: contains(github.event.pull_request.labels.*.name, 'type/renovate') && !contains(github.event.pull_request.labels.*.name, 'ready-for/testing')
     runs-on: ubuntu-20.04
     steps:
 
       - name: Checkout code
         uses: actions/checkout@v2
+      
+      - name: Check token
+        run: |
+          test -n "${HOMEBREW_GITHUB_API_TOKEN}"
 
       - name: Update formula
         id: update-formula
@@ -34,17 +36,10 @@ jobs:
                       --header 'Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' | \
                   jq --raw-output '.[].filename'
           )
-          STARTS_WITH="renovate/"
+          STARTS_WITH="scripts/"
           for FILE in ${FILES}; do
               if test "${FILE:0:${#STARTS_WITH}}" == "${STARTS_WITH}"; then
                   echo "Updating ${FILE}"
                   bash "${FILE}"
               fi
           done
-
-      - name: Commit changes
-        id: add-and-commit
-        uses: EndBug/add-and-commit@v7
-        with:
-          add: 'Formula/*.rb'
-          message: 'Updated formulae'
