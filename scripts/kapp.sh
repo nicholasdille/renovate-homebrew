@@ -6,7 +6,5 @@ VERSION=0.35.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
-    --strict \
-    --no-browse \
-    --no-fork \
+    "$@" \
     nicholasdille/tap/kapp

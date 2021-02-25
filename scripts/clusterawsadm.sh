@@ -6,7 +6,5 @@ VERSION=0.6.4
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
-    --strict \
-    --no-browse \
-    --no-fork \
+    "$@" \
     nicholasdille/tap/clusterawsadm

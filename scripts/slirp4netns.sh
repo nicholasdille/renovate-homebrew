@@ -6,7 +6,5 @@ VERSION=1.1.8
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
-    --strict \
-    --no-browse \
-    --no-fork \
+    "$@" \
     nicholasdille/tap/slirp4netns
