@@ -7,9 +7,9 @@ VERSION=20.10.5
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/dockerd-bin# Update url
-
-for FORMULA in docker-bin docker-rootless-bin; do
+    nicholasdille/tap/dockerd-bin
+    
+for FORMULA in dockerd-bin; do
     if test -f "Formula/${FORMULA}.rb"; then
         echo "Updating SHA256 for formula ${FORMULA}"
 
