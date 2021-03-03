@@ -7,9 +7,9 @@ VERSION=20.10.5
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/dockerd-bin
+    nicholasdille/tap/dockerd
     
-for FORMULA in dockerd-bin; do
+for FORMULA in dockerd; do
     if test -f "Formula/${FORMULA}.rb"; then
         echo "Updating SHA256 for formula ${FORMULA}"
 
