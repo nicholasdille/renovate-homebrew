@@ -59,6 +59,6 @@ jobs:
           for FILE in ${FILES}; do
               if test "${FILE:0:${#STARTS_WITH}}" == "${STARTS_WITH}"; then
                   echo "Updating ${FILE}"
-                  bash "${FILE}" --strict --no-browse --no-fork --message "Opened by ${GITHUB_REPOSITORY}#${PR}"
+                  bash "${FILE}" --strict --no-browse --no-fork --message="Opened by ${GITHUB_REPOSITORY}#${PR}"
               fi
           done
