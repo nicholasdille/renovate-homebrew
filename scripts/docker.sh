@@ -2,25 +2,13 @@
 
 DATASOURCE=github-tags
 REPO=docker/cli
-VERSION=20.10.2
+VERSION=20.10.3
 
-# Update url
-for FORMULA in docker-bin docker-rootless-bin; do
-    if test -f "Formula/${FORMULA}.rb"; then
-        echo "Updating URLs for formula ${FORMULA}"
-        sed -E -i "s|/docker-((.+)-)?([^-]+).tgz|/docker-\1${VERSION}.tgz|" "Formula/${FORMULA}.rb"
-    fi
-done
+brew bump-formula-pr \
+    "--version=${VERSION}" \
+    "$@" \
+    nicholasdille/tap/dockerd-bin# Update url
 
-# Update version
-for FORMULA in docker-bin docker-rootless-bin; do
-    if test -f "Formula/${FORMULA}.rb"; then
-        echo "Updating version for formula ${FORMULA}"
-        sed -E -i "s|^(\s+)version \"(.+)\"$|\1version \"${VERSION}\"|" "Formula/${FORMULA}.rb"
-    fi
-done
-
-# Update SHA256
 for FORMULA in docker-bin docker-rootless-bin; do
     if test -f "Formula/${FORMULA}.rb"; then
         echo "Updating SHA256 for formula ${FORMULA}"
