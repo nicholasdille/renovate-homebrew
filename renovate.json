@@ -44,6 +44,12 @@
     },
     {
       "packageNames": [
+        "google/gvisor"
+      ],
+      "extractVersion": "^release-(?<version>.+)$"
+    },
+    {
+      "packageNames": [
         "AkihiroSuda/cni-isolation",
         "AkihiroSuda/nerdctl",
         "AkihiroSuda/sshocker",
@@ -51,8 +57,11 @@
         "containerd/containerd",
         "containerd/stargz-snapshotter",
         "containernetworking/plugins",
+        "containers/buildah",
+        "containers/conmon",
         "containers/fuse-overlayfs",
         "containers/podman",
+        "cri-o/cri-o",
         "deislabs/oras",
         "docker/app",
         "docker/buildx",
@@ -62,10 +71,12 @@
         "estesp/manifest-tool",
         "firecracker-microvm/firecracker",
         "go-task/task",
+        "google/go-containerregistry",
         "kubermatic/kubeone",
         "kubernetes-sigs/cluster-api",
         "kubernetes-sigs/cluster-api-provider-aws",
         "moby/buildkit",
+        "nestybox/sysbox",
         "norouter/norouter",
         "opencontainers/runc",
         "opencontainers/umoci",
@@ -74,7 +85,8 @@
         "rootless-containers/slirp4netns",
         "vmware-tanzu/carvel-imgpkg",
         "vmware-tanzu/carvel-kapp",
-        "vmware-tanzu/carvel-ytt"
+        "vmware-tanzu/carvel-ytt",
+        "weaveworks/ignite"
       ],
       "extractVersion": "^v(?<version>.+)$"
     }
