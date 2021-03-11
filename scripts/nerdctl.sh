@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=AkihiroSuda/nerdctl
-VERSION=0.7.0
+VERSION=0.7.1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
