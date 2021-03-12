@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=openfaas/faasd
-VERSION=0.11.1
+VERSION=0.11.4
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
