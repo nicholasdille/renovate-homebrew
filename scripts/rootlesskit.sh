@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=rootless-containers/rootlesskit
-VERSION=0.13.2
+VERSION=0.14.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
