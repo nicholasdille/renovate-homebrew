@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=deislabs/oras
-VERSION=0.10.0
+VERSION=0.11.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
