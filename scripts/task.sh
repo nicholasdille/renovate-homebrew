@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=go-task/task
-VERSION=3.2.2
+VERSION=3.3.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
