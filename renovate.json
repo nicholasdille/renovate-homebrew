@@ -51,10 +51,10 @@
     {
       "packageNames": [
         "AkihiroSuda/cni-isolation",
-        "AkihiroSuda/nerdctl",
         "AkihiroSuda/sshocker",
         "aquasecurity/trivy",
         "containerd/containerd",
+        "containerd/nerdctl",
         "containerd/stargz-snapshotter",
         "containernetworking/plugins",
         "containers/buildah",
