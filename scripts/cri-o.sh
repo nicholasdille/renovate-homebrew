@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=cri-o/cri-o
-VERSION=1.20.1
+VERSION=1.20.2
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
