@@ -92,6 +92,8 @@
         "transparencylog/tl",
         "vmware-tanzu/carvel-imgpkg",
         "vmware-tanzu/carvel-kapp",
+        "vmware-tanzu/carvel-kbld",
+        "vmware-tanzu/carvel-kwt",
         "vmware-tanzu/carvel-ytt",
         "weaveworks/ignite"
       ],
