@@ -57,6 +57,7 @@
         "containerd/nerdctl",
         "containerd/stargz-snapshotter",
         "containernetworking/plugins",
+        "containers/bubblewrap",
         "containers/buildah",
         "containers/conmon",
         "containers/fuse-overlayfs",
