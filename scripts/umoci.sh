@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=opencontainers/umoci
-VERSION=0.4.6
+VERSION=0.4.7
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
