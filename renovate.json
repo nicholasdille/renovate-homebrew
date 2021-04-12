@@ -96,6 +96,7 @@
         "vmware-tanzu/carvel-kapp",
         "vmware-tanzu/carvel-kbld",
         "vmware-tanzu/carvel-kwt",
+        "vmware-tanzu/carvel-vendir",
         "vmware-tanzu/carvel-ytt",
         "weaveworks/ignite"
       ],
