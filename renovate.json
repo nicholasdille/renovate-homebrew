@@ -66,6 +66,7 @@
         "cri-o/cri-o",
         "danielb42/kubeswitch",
         "deislabs/oras",
+        "distribution/distribution",
         "docker/app",
         "docker/buildx",
         "docker/cli",
