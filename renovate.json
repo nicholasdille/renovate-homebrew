@@ -75,6 +75,7 @@
         "docker/scan-cli-plugin",
         "estesp/manifest-tool",
         "firecracker-microvm/firecracker",
+        "getoutreach/localizer",
         "getporter/porter",
         "go-task/task",
         "google/go-containerregistry",
