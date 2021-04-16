@@ -2,7 +2,7 @@
 
 DATASOURCE=github-tags
 REPO=ContainerSSH/ContainerSSH
-VERSION=0.4.0-PR4
+VERSION=0.4.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \

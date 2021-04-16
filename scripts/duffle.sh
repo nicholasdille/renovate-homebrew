@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DATASOURCE=github-releases
-REPO=weaveworks/ignite
-VERSION=0.9.0
+REPO=cnabio/duffle
+VERSION=0.3.5-beta.1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/ignite
+    nicholasdille/tap/duffle
