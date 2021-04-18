@@ -50,6 +50,12 @@
     },
     {
       "packageNames": [
+        "microsoft/WSL2-Linux-Kernel"
+      ],
+      "extractVersion": "^linux-msft-wsl-(?<version>.+)$"
+    },
+    {
+      "packageNames": [
         "AkihiroSuda/cni-isolation",
         "AkihiroSuda/sshocker",
         "aquasecurity/trivy",
