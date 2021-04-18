@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DATASOURCE=github-releases
-REPO=containerd/nerdctl
-VERSION=0.8.0
+REPO=cnabio/duffle
+VERSION=0.3.5-beta.1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/nerdctl
+    nicholasdille/tap/duffle

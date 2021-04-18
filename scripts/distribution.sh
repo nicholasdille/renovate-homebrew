@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DATASOURCE=github-releases
-REPO=docker/compose-cli
-VERSION=1.0.10
+REPO=distribution/distribution
+VERSION=2.7.1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/docker-compose-cli
+    nicholasdille/tap/distribution
