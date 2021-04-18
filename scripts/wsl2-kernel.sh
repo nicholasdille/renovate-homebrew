@@ -6,6 +6,7 @@ REPO=microsoft/WSL2-Linux-Kernel
 VERSION=5.10.16.3
 
 PREFIX="${HOME}/.local"
+mkdir -p "${PREFIX}/src"
 if ! test -d "${PREFIX}/src/WSL2-Linux-Kernel-linux-msft-wsl-${VERSION}"; then
     curl -sL https://github.com/${REPO}/archive/refs/tags/linux-msft-wsl-${VERSION}.tar.gz | \
         tar -xzC "${PREFIX}/src"
