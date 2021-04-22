@@ -8,3 +8,8 @@ brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
     nicholasdille/tap/nerdctl
+
+brew bump-formula-pr \
+    "--version=${VERSION}" \
+    "$@" \
+    nicholasdille/tap/containerd-rootless
