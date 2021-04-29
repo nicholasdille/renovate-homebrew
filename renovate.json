@@ -84,7 +84,6 @@
         "getoutreach/localizer",
         "getporter/porter",
         "go-task/task",
-        "google/go-containerregistry",
         "google/trillian",
         "kubermatic/kubeone",
         "kubernetes-sigs/cluster-api",
