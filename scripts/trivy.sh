@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=aquasecurity/trivy
-VERSION=0.17.0
+VERSION=0.17.1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
