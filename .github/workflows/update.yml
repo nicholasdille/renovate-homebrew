@@ -45,7 +45,6 @@ jobs:
         env:
           PR: ${{ github.event.pull_request.number }}
           HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
-          HOMEBREW_CURL_VERBOSE: true
         run: |
           echo "Running for PR #${PR}"
 
