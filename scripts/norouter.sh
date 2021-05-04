@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=norouter/norouter
-VERSION=0.6.2
+VERSION=0.6.3
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
