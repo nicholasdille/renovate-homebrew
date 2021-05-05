@@ -88,6 +88,7 @@
         "kubermatic/kubeone",
         "kubernetes-sigs/cluster-api",
         "kubernetes-sigs/cluster-api-provider-aws",
+        "kubernetes-sigs/cri-tools",
         "moby/buildkit",
         "nestybox/sysbox",
         "norouter/norouter",
