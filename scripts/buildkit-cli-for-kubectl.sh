@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATASOURCE=github-releases
+DATASOURCE=github-tags
 REPO=vmware-tanzu/buildkit-cli-for-kubectl
 VERSION=0.1.2
 
