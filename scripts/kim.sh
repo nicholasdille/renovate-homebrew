@@ -7,4 +7,4 @@ VERSION=0.1.0-alpha.12
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/bubblewrap
+    nicholasdille/tap/kim
