@@ -13,3 +13,8 @@ brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
     nicholasdille/tap/containerd-rootless
+
+brew bump-formula-pr \
+    "--version=${VERSION}" \
+    "$@" \
+    nicholasdille/tap/nerdctl-immortal
