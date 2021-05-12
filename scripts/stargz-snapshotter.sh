@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=containerd/stargz-snapshotter
-VERSION=0.5.0
+VERSION=0.6.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
