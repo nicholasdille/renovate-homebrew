@@ -7,4 +7,4 @@ VERSION=0.2.0
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/stargz-snapshotter-bin
+    nicholasdille/tap/vcluster
