@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=rancher/kim
-VERSION=0.1.0-alpha.12
+VERSION=0.1.0-beta.2
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
