@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=containerd/nerdctl
-VERSION=0.8.2
+VERSION=0.8.3
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
