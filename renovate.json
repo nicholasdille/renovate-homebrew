@@ -95,6 +95,7 @@
         "kubernetes-sigs/cluster-api-provider-aws",
         "kubernetes-sigs/cri-tools",
         "loft-sh/vcluster",
+        "microsoft/cascadia-code",
         "moby/buildkit",
         "nestybox/sysbox",
         "norouter/norouter",
