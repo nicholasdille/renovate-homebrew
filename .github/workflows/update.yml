@@ -31,8 +31,12 @@ jobs:
         uses: Homebrew/actions/git-user-config@master
 
       - name: Set up tap
+        env:
+          HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
         run: |
-          brew tap nicholasdille/tap
+          #brew tap nicholasdille/tap
+          brew tap nicholasdille/tap https://${HOMEBREW_GITHUB_API_TOKEN}@github.com/nicholasdille/homebrew-tap
+          #git config --global credential.helper="!f(){ printf 'username=%s\npassword=%s\n' "$USERNAME" "$PASSWORD" };f"
 
       - name: Check taps
         run: |
