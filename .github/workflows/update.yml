@@ -35,7 +35,7 @@ jobs:
           HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
         run: |
           export GIT_CREDS_PATH="${GITHUB_WORKSPACE}/store"
-          echo "https://${HOMEBREW_GITHUB_API_TOKEN}@github.com/nicholasdille/homebrew-tap" >"${GIT_CREDS_PATH}"
+          echo "https://${HOMEBREW_GITHUB_API_TOKEN}@github.com" >"${GIT_CREDS_PATH}"
           git config --global credential.helper "store --file ${GIT_CREDS_PATH}"
 
       - name: Set up tap
