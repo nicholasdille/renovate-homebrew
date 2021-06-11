@@ -48,10 +48,6 @@ jobs:
         run: |
           chmod 0664 /home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/nicholasdille/homebrew-tap/Formula/*
 
-      - name: Check git config
-        run: |
-          git config --list
-
       - name: Update formula
         id: update-formula
         env:
