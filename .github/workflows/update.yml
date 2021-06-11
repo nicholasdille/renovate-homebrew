@@ -40,9 +40,9 @@ jobs:
         run: |
           git config --list
       
-      - name: Foo
+      - name: Patch
         run: |
-          printenv | sort
+          patch "${HOMEBREW_REPOSITORY}/Library/Homebrew/utils/curl.rb" <debug/bump-formula-pr.patch
 
       - name: Update formula
         id: update-formula
