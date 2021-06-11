@@ -39,10 +39,6 @@ jobs:
       - name: Check git config
         run: |
           git config --list
-      
-      - name: Patch
-        run: |
-          patch "/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/utils/curl.rb" <debug/bump-formula-pr.patch
 
       - name: Update formula
         id: update-formula
