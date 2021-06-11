@@ -37,7 +37,6 @@ jobs:
           export GIT_CREDS_PATH="${GITHUB_WORKSPACE}/store"
           echo "https://${HOMEBREW_GITHUB_API_TOKEN}@github.com/nicholasdille/homebrew-tap" >"${GIT_CREDS_PATH}"
           git config --global credential.helper "store --file ${GIT_CREDS_PATH}"
-          cat "${GIT_CREDS_PATH}"
 
       - name: Set up tap
         env:
@@ -48,6 +47,10 @@ jobs:
       - name: Fix permissions
         run: |
           chmod 0664 /home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/nicholasdille/homebrew-tap/Formula/*
+
+      - name: Check git config
+        run: |
+          git config --list
 
       - name: Update formula
         id: update-formula
