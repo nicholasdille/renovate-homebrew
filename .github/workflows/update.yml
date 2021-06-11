@@ -34,9 +34,9 @@ jobs:
         run: |
           test -n "${HOMEBREW_GITHUB_API_TOKEN}"
 
-      - name: Check permissions
+      - name: Fix permissions
         run: |
-          ls -al /home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/nicholasdille/homebrew-tap/Formula
+          chmod 0664 /home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/nicholasdille/homebrew-tap/Formula/*
 
       - name: Update formula
         id: update-formula
