@@ -22,10 +22,8 @@ jobs:
         uses: Homebrew/actions/setup-homebrew@master
 
       - name: Set up tap
-        env:
-          HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
         run: |
-          brew tap nicholasdille/tap https://${HOMEBREW_GITHUB_API_TOKEN}@github.com/nicholasdille/homebrew-tap
+          brew tap nicholasdille/tap
 
       - name: Set up git
         uses: Homebrew/actions/git-user-config@master
@@ -35,10 +33,6 @@ jobs:
           HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.HOMEBREW_GITHUB_API_TOKEN }}
         run: |
           test -n "${HOMEBREW_GITHUB_API_TOKEN}"
-      
-      - name: Check git config
-        run: |
-          git config --list
 
       - name: Update formula
         id: update-formula
