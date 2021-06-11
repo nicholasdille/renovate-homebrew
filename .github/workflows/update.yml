@@ -39,6 +39,10 @@ jobs:
       - name: Check git config
         run: |
           git config --list
+      
+      - name: Foo
+        run: |
+          printenv | sort
 
       - name: Update formula
         id: update-formula
