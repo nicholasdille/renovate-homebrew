@@ -42,7 +42,7 @@ jobs:
       
       - name: Patch
         run: |
-          patch "${HOMEBREW_REPOSITORY}/Library/Homebrew/utils/curl.rb" <debug/bump-formula-pr.patch
+          patch "/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/utils/curl.rb" <debug/bump-formula-pr.patch
 
       - name: Update formula
         id: update-formula
