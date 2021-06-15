@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=getporter/porter
-VERSION=0.38.1
+VERSION=0.38.2
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
