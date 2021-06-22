@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=shipa-corp/ketch
-VERSION=0.2.1
+VERSION=0.3.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
