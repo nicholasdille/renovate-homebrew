@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATASOURCE=github-releases
+DATASOURCE=github-tags
 REPO=containers/dnsname
 VERSION=1.1.1
 
