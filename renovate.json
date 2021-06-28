@@ -99,6 +99,7 @@
         "kubernetes-sigs/cluster-api",
         "kubernetes-sigs/cluster-api-provider-aws",
         "kubernetes-sigs/cri-tools",
+        "loft-sh/loft",
         "loft-sh/vcluster",
         "microsoft/cascadia-code",
         "moby/buildkit",
