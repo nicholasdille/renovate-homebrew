@@ -1,0 +1,12 @@
+diff --git a/Library/Homebrew/utils/curl.rb b/Library/Homebrew/utils/curl.rb
+index 517875628..a0ff6d2e4 100644
+--- a/Library/Homebrew/utils/curl.rb
++++ b/Library/Homebrew/utils/curl.rb
+@@ -46,6 +46,7 @@ module Utils
+ 
+       args << "--header" << "Accept-Language: en"
+ 
++      options[:show_output] = true
+       unless options[:show_output] == true
+         args << "--fail"
+         args << "--progress-bar" unless Context.current.verbose?
