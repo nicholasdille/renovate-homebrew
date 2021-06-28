@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATASOURCE=github-releases
+DATASOURCE=github-tags
 REPO=google/gvisor
 VERSION=20210301.0
 
