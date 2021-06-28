@@ -2,9 +2,9 @@
 
 DATASOURCE=github-releases
 REPO=rancher/kim
-VERSION=0.1.0-alpha.11
+VERSION=0.1.0-beta.2
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/bubblewrap
+    nicholasdille/tap/kim

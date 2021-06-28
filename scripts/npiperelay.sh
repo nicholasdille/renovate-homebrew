@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DATASOURCE=github-releases
-REPO=getporter/porter
-VERSION=0.38.3
+REPO=jstarks/npiperelay
+VERSION=0.1.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/porter
+    nicholasdille/tap/npiperelay-bin

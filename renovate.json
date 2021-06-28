@@ -58,6 +58,7 @@
       "packageNames": [
         "AkihiroSuda/cni-isolation",
         "AkihiroSuda/sshocker",
+        "aristanetworks/bst",
         "aquasecurity/trivy",
         "containerd/containerd",
         "containerd/fuse-overlayfs-snapshotter",
@@ -66,11 +67,17 @@
         "containernetworking/plugins",
         "containers/bubblewrap",
         "containers/buildah",
+        "containers/common",
         "containers/conmon",
+        "containers/dnsname",
         "containers/fuse-overlayfs",
+        "containers/image",
         "containers/podman",
+        "containers/storage",
         "ContainerSSH/ContainerSSH",
+        "crazy-max/diun",
         "cri-o/cri-o",
+        "checkpoint-restore/criu",
         "danielb42/kubeswitch",
         "deislabs/oras",
         "distribution/distribution",
@@ -86,12 +93,17 @@
         "getporter/porter",
         "go-task/task",
         "google/trillian",
+        "jstarks/npiperelay",
         "kubermatic/kubeone",
+        "krallin/tini",
         "kubernetes-sigs/cluster-api",
         "kubernetes-sigs/cluster-api-provider-aws",
         "kubernetes-sigs/cri-tools",
+        "loft-sh/loft",
         "loft-sh/vcluster",
+        "microsoft/cascadia-code",
         "moby/buildkit",
+        "moby/libnetwork",
         "nestybox/sysbox",
         "norouter/norouter",
         "opencontainers/image-tools",
@@ -111,9 +123,10 @@
         "vmware-tanzu/carvel-kwt",
         "vmware-tanzu/carvel-vendir",
         "vmware-tanzu/carvel-ytt",
+        "vmware-tanzu/buildkit-cli-for-kubectl",
         "weaveworks/ignite"
       ],
-      "extractVersion": "^v(?<version>.+)$"
+      "extractVersion": "^v(?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+))?$"
     }
   ]
 }

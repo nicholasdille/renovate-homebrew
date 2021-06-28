@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DATASOURCE=github-releases
-REPO=getporter/porter
-VERSION=0.38.3
+REPO=vmware-tanzu/buildkit-cli-for-kubectl
+VERSION=0.1.2
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/porter
+    nicholasdille/tap/kubectl-build

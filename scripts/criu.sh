@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DATASOURCE=github-releases
-REPO=getporter/porter
-VERSION=0.38.3
+REPO=checkpoint-restore/criu
+VERSION=3.15
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/porter
+    nicholasdille/tap/criu

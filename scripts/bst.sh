@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DATASOURCE=github-releases
-REPO=getporter/porter
-VERSION=0.38.3
+REPO=aristanetworks/bst
+VERSION=1.0.0-rc1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/porter
+    nicholasdille/tap/bubblewrap

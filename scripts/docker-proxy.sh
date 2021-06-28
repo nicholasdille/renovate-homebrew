@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DATASOURCE=github-releases
-REPO=shipa-corp/ketch
-VERSION=0.2.1
+REPO=moby/libnetwork
+VERSION=0.8.0-dev.2
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/ketch
+    nicholasdille/tap/docker-scan

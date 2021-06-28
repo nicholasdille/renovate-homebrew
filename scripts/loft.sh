@@ -1,10 +1,10 @@
 #!/bin/bash
 
 DATASOURCE=github-releases
-REPO=getporter/porter
-VERSION=0.38.3
+REPO=loft-sh/loft
+VERSION=1.12.2
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/porter
+    nicholasdille/tap/loft-bin
