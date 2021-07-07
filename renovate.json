@@ -56,6 +56,13 @@
     },
     {
       "packageNames": [
+        "containers/crun",
+        "containers/fuse-overlayfs"
+      ],
+      "extractVersion": "^(<major>\\d+)\\.(<minor>\\d+)(\\.(<patch>\\d+))?$"
+    },
+    {
+      "packageNames": [
         "AkihiroSuda/cni-isolation",
         "AkihiroSuda/sshocker",
         "aristanetworks/bst",
@@ -70,7 +77,6 @@
         "containers/common",
         "containers/conmon",
         "containers/dnsname",
-        "containers/fuse-overlayfs",
         "containers/image",
         "containers/podman",
         "containers/storage",
