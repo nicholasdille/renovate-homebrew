@@ -126,7 +126,7 @@
         "vmware-tanzu/buildkit-cli-for-kubectl",
         "weaveworks/ignite"
       ],
-      "extractVersion": "^v(?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+))?$"
+      "extractVersion": "^v(?<version>.+)$"
     }
   ]
 }
