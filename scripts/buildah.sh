@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=containers/buildah
-VERSION=1.21.2
+VERSION=1.21.3
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
