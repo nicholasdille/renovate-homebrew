@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=docker/buildx
-VERSION=0.5.1
+VERSION=0.6.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
