@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=netblue30/firejail
-VERSION=0.9.64.4
+VERSION=0.9.66
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
