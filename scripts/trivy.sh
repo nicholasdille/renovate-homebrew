@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=aquasecurity/trivy
-VERSION=0.19.1
+VERSION=0.19.2
 
 export HOMEBREW_CURL_VERBOSE=true
 brew bump-formula-pr \
