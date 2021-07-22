@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=containers/image
-VERSION=5.13.2
+VERSION=5.14.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
