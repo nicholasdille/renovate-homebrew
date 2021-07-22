@@ -69,6 +69,12 @@
     },
     {
       "packageNames": [
+        "nelhage/reptyr"
+      ],
+      "extractVersion": "^reptyr-(?<version>.+)$"
+    },
+    {
+      "packageNames": [
         "AkihiroSuda/cni-isolation",
         "AkihiroSuda/sshocker",
         "aristanetworks/bst",
