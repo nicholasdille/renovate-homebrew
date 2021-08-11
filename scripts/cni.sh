@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=containernetworking/plugins
-VERSION=0.9.1
+VERSION=1.0.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
