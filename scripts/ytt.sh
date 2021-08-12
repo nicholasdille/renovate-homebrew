@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=vmware-tanzu/carvel-ytt
-VERSION=0.35.1
+VERSION=0.36.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
