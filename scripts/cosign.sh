@@ -2,7 +2,7 @@
 
 DATASOURCE=github-tags
 REPO=sigstore/cosign
-VERSION=0.6.0
+VERSION=v1.1.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
