@@ -77,6 +77,7 @@
       "packageNames": [
         "AkihiroSuda/cni-isolation",
         "AkihiroSuda/sshocker",
+        "anuvu/stacker",
         "aristanetworks/bst",
         "aquasecurity/trivy",
         "armosec/kubescape",
