@@ -79,6 +79,7 @@
         "AkihiroSuda/sshocker",
         "aristanetworks/bst",
         "aquasecurity/trivy",
+        "armosec/kubescape",
         "containerd/containerd",
         "containerd/fuse-overlayfs-snapshotter",
         "containerd/nerdctl",
