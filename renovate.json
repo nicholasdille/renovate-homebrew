@@ -133,6 +133,7 @@
         "rootless-containers/rootlesskit",
         "rootless-containers/slirp4netns",
         "shipa-corp/ketch",
+        "sigstore/cosign",
         "sigstore/rekor",
         "transparencylog/tl",
         "vmware-tanzu/carvel-imgpkg",
