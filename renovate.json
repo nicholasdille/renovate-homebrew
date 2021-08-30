@@ -78,6 +78,7 @@
         "AkihiroSuda/cni-isolation",
         "AkihiroSuda/sshocker",
         "anuvu/stacker",
+        "anuvu/zot",
         "aristanetworks/bst",
         "aquasecurity/trivy",
         "armosec/kubescape",
