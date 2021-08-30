@@ -59,13 +59,13 @@
         "containers/crun",
         "containers/fuse-overlayfs"
       ],
-      "extractVersion": "^(?<version>\\d+\\.\\d+(\\.\\d+)?$"
+      "extractVersion": "^(?<version>\\d+\\.\\d+(\\.\\d+)?)$"
     },
     {
       "packageNames": [
         "netblue30/firejail"
       ],
-      "extractVersion": "^(?<version>\\d+\\.\\d+\\.\\d+(\\.\\d+)?$"
+      "extractVersion": "^(?<version>\\d+\\.\\d+\\.\\d+(\\.\\d+)?)$"
     },
     {
       "packageNames": [
