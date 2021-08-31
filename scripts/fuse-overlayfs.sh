@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=containers/fuse-overlayfs
-VERSION=1.6
+VERSION=v1.7.1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
