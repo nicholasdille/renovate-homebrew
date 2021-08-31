@@ -134,6 +134,7 @@
         "microsoft/cascadia-code",
         "moby/buildkit",
         "moby/libnetwork",
+        "moby/moby",
         "nestybox/sysbox",
         "norouter/norouter",
         "opencontainers/image-tools",
