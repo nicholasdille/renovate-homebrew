@@ -80,6 +80,7 @@
         "anuvu/stacker",
         "anuvu/zot",
         "aristanetworks/bst",
+        "aquasecurity/kube-bench",
         "aquasecurity/trivy",
         "armosec/kubescape",
         "containerd/containerd",
