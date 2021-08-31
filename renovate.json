@@ -54,14 +54,14 @@
         "netblue30/firejail"
       ],
       "versioning": "loose",
-      "extractVersion": "(?<version>\\d+\\.\\d+\\.\\d+(\\.\\d+)+)"
+      "extractVersion": "^(?<version>\\d+(\\.\\d+)+)$"
     },
     {
       "packageNames": [
         "microsoft/WSL2-Linux-Kernel"
       ],
       "versioning": "loose",
-      "extractVersion": "linux-msft-wsl-(?<version>.+)"
+      "extractVersion": "^linux-msft-wsl-(?<version>\\d+(\\.\\d+)+)$"
     },
     {
       "packageNames": [
