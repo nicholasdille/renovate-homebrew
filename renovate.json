@@ -43,35 +43,25 @@
       ]
     },
     {
-      "packageNames": [
-        "google/gvisor"
-      ],
-      "extractVersion": "^release-(?<version>.+)$"
-    },
-    {
-      "packageNames": [
-        "microsoft/WSL2-Linux-Kernel"
-      ],
-      "extractVersion": "^linux-msft-wsl-(?<version>.+)$"
-    },
-    {
-      "packageNames": [
+      "matchPackageNames": [
         "containers/crun",
         "containers/fuse-overlayfs"
       ],
-      "extractVersion": "^(?<version>\\d+\\.\\d+(\\.\\d+)?)$"
+      "versioning": "regex:^v?(?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+))?$"
     },
     {
       "packageNames": [
+        "microsoft/WSL2-Linux-Kernel",
         "netblue30/firejail"
       ],
-      "extractVersion": "^(?<version>\\d+\\.\\d+\\.\\d+(\\.\\d+)?)$"
+      "versioning": "loose"
     },
     {
       "packageNames": [
+        "google/gvisor",
         "nelhage/reptyr"
       ],
-      "extractVersion": "^reptyr-(?<version>.+)$"
+      "extractVersion": "^[^-]+-(?<version>.+)$"
     },
     {
       "packageNames": [
@@ -83,6 +73,7 @@
         "aquasecurity/kube-bench",
         "aquasecurity/trivy",
         "armosec/kubescape",
+        "checkpoint-restore/criu",
         "containerd/containerd",
         "containerd/fuse-overlayfs-snapshotter",
         "containerd/nerdctl",
@@ -99,7 +90,6 @@
         "ContainerSSH/ContainerSSH",
         "crazy-max/diun",
         "cri-o/cri-o",
-        "checkpoint-restore/criu",
         "danielb42/kubeswitch",
         "deislabs/oras",
         "distribution/distribution",
