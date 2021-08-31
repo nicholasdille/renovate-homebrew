@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=kata-containers/kata-containers
-VERSION=2.1.1
+VERSION=2.2.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
