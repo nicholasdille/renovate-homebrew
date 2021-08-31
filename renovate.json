@@ -51,18 +51,30 @@
     },
     {
       "packageNames": [
-        "microsoft/WSL2-Linux-Kernel",
         "netblue30/firejail"
       ],
       "versioning": "loose",
-      "extractVersion": "(linux-msft-wsl-)?(?<version>.+)"
+      "extractVersion": "(?<version>\\d+\\.\\d+\\.\\d+(\\.\\d+)+)"
     },
     {
       "packageNames": [
-        "google/gvisor",
+        "microsoft/WSL2-Linux-Kernel"
+      ],
+      "versioning": "loose",
+      "extractVersion": "linux-msft-wsl-(?<version>.+)"
+    },
+    {
+      "packageNames": [
         "nelhage/reptyr"
       ],
-      "extractVersion": "^[^-]+-(?<version>.+)$"
+      "extractVersion": "^reptyr-(?<version>.+)$"
+    },
+    {
+      "packageNames": [
+        "google/gvisor"
+      ],
+      "versioning": "loose",
+      "extractVersion": "^release-(?<version>\\d{8}\\.\\d)$"
     },
     {
       "packageNames": [
