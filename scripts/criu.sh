@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATASOURCE=github-releases
+DATASOURCE=github-tags
 REPO=checkpoint-restore/criu
 VERSION=3.15
 
