@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=datreeio/datree
-VERSION=0.9.0
+VERSION=0.11.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
