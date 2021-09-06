@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=crazy-max/diun
-VERSION=4.19.0
+VERSION=4.20.1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
