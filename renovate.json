@@ -148,6 +148,7 @@
         "shipa-corp/ketch",
         "sigstore/cosign",
         "sigstore/rekor",
+        "stefanprodan/kustomizer",
         "transparencylog/tl",
         "vmware-tanzu/carvel-imgpkg",
         "vmware-tanzu/carvel-kapp",
