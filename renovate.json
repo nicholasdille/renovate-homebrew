@@ -51,7 +51,9 @@
     {
       "matchPackageNames": [
         "containers/fuse-overlayfs",
-        "salesforce/sloop"
+        "ncopa/su-exec",
+        "salesforce/sloop",
+        "tianon/gosu"
       ],
       "versioning": "regex:^v(?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+))?$"
     },
@@ -107,7 +109,9 @@
         "containers/podman",
         "containers/storage",
         "ContainerSSH/ContainerSSH",
+        "crazy-max/artifactory-cleanup",
         "crazy-max/diun",
+        "crazy-max/yasu",
         "cri-o/cri-o",
         "danielb42/kubeswitch",
         "deislabs/oras",
@@ -124,6 +128,7 @@
         "getporter/porter",
         "go-task/task",
         "google/trillian",
+        "jpillora/chisel",
         "jstarks/npiperelay",
         "kubermatic/kubeone",
         "krallin/tini",
