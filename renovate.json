@@ -30,7 +30,7 @@
         "^scripts/.*\\.sh"
       ],
       "matchStrings": [
-        "DATASOURCE=(?<datasource>.+?)\\nREPO=(?<depName>.+?)\\nVERSION=(?<currentValue>.*)\\n"
+        "DATASOURCE=(?<datasource>.+?)\\nREPO=(?<depName>.+?)\\nVERSION=(?<currentValue>.*)\\n(VERSIONING=(?<versioning>.*)\\n)?"
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
