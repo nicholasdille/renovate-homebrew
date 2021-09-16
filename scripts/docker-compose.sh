@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=docker/compose
-VERSION=2.0.0-rc.2
+VERSION=v2.0.0-rc.3
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
