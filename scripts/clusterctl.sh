@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=kubernetes-sigs/cluster-api
-VERSION=0.4.2
+VERSION=0.4.3
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
