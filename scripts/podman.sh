@@ -12,9 +12,4 @@ brew bump-formula-pr \
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/podman-static
-
-brew bump-formula-pr \
-    "--version=${VERSION}" \
-    "$@" \
     nicholasdille/tap/podman-remote
