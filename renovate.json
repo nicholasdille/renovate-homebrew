@@ -51,11 +51,18 @@
     {
       "matchPackageNames": [
         "containers/fuse-overlayfs",
+        "docker/compose",
         "ncopa/su-exec",
         "salesforce/sloop",
         "tianon/gosu"
       ],
       "versioning": "regex:^v(?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+))?$"
+    },
+    {
+      "matchPackageNames": [
+        "docker/compose"
+      ],
+      "extractVersion": "^v?(?<version>.+)$"
     },
     {
       "packageNames": [
