@@ -7,4 +7,4 @@ VERSION=v2.0.0
 brew bump-formula-pr \
     "--version=${VERSION}" \
     "$@" \
-    nicholasdille/tap/docker-compose-cli
+    nicholasdille/tap/docker-compose
