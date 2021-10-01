@@ -51,6 +51,7 @@
     {
       "matchPackageNames": [
         "containers/fuse-overlayfs",
+        "cyberark/kubeletctl",
         "docker/compose",
         "ncopa/su-exec",
         "salesforce/sloop",
