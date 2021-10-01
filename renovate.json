@@ -148,6 +148,7 @@
         "moby/buildkit",
         "moby/libnetwork",
         "moby/moby",
+        "nalbury/promql-cli",
         "nestybox/sysbox",
         "norouter/norouter",
         "opencontainers/image-tools",
