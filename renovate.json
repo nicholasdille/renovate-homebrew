@@ -130,6 +130,7 @@
         "docker/compose-cli",
         "docker/hub-tool",
         "docker/scan-cli-plugin",
+        "EnvCLI/EnvCLI",
         "estesp/manifest-tool",
         "firecracker-microvm/firecracker",
         "getoutreach/localizer",
