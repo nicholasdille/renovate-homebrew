@@ -67,6 +67,7 @@
     },
     {
       "packageNames": [
+        "jaspervdj/patat",
         "netblue30/firejail"
       ],
       "versioning": "loose",
