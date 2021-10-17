@@ -160,6 +160,7 @@
         "nalbury/promql-cli",
         "nestybox/sysbox",
         "norouter/norouter",
+        "notaryproject/notary",
         "opencontainers/image-tools",
         "opencontainers/runc",
         "opencontainers/runtime-tools",
