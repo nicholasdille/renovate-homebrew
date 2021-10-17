@@ -136,6 +136,7 @@
         "EnvCLI/EnvCLI",
         "estesp/manifest-tool",
         "firecracker-microvm/firecracker",
+        "genuinetools/img",
         "getoutreach/localizer",
         "getporter/porter",
         "go-task/task",
