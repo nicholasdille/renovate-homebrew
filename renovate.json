@@ -108,6 +108,7 @@
         "checkpoint-restore/criu",
         "containerd/containerd",
         "containerd/fuse-overlayfs-snapshotter",
+        "containerd/imgcrypt",
         "containerd/nerdctl",
         "containerd/stargz-snapshotter",
         "containernetworking/plugins",
