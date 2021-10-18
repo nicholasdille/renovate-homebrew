@@ -38,14 +38,6 @@
 
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "^.+"
-      ],
-      "matchPaths": [
-        "^renovate/*.sh"
-      ]
-    },
-    {
       "matchPackageNames": [
         "containers/crun"
       ],
