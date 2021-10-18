@@ -38,6 +38,9 @@
 
   "packageRules": [
     {
+      "matchPackagePatterns": [
+        "^.+"
+      ],
       "matchPaths": [
         "^renovate/*.sh"
       ]
