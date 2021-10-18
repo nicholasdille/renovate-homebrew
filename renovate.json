@@ -52,7 +52,8 @@
         "salesforce/sloop",
         "tianon/gosu"
       ],
-      "versioning": "regex:^v(?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+))?$"
+      "versioning": "loose",
+      "extractVersion": "regex:^v(?<version>\\d+\\.\\d+(\\.\\d+)?)$"
     },
     {
       "matchPackageNames": [
