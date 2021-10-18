@@ -45,6 +45,7 @@
     },
     {
       "matchPackageNames": [
+        "checkpoint-restore/criu",
         "containers/fuse-overlayfs",
         "cyberark/kubeletctl",
         "ncopa/su-exec",
@@ -99,7 +100,6 @@
         "aquasecurity/trivy",
         "armosec/kubescape",
         "chanwit/ekz",
-        "checkpoint-restore/criu",
         "containerd/containerd",
         "containerd/fuse-overlayfs-snapshotter",
         "containerd/imgcrypt",
