@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=getoutreach/localizer
-VERSION=1.12.0
+VERSION=1.12.1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
