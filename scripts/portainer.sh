@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=portainer/portainer
-VERSION=2.9.1
+VERSION=2.9.2
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
