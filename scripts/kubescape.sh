@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=armosec/kubescape
-VERSION=1.0.127
+VERSION=1.0.128
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
