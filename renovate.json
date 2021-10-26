@@ -148,6 +148,7 @@
         "kubernetes-sigs/cri-tools",
         "loft-sh/loft",
         "loft-sh/vcluster",
+        "marcosnils/bin",
         "microsoft/cascadia-code",
         "moby/buildkit",
         "moby/libnetwork",
