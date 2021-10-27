@@ -39,7 +39,9 @@
   "packageRules": [
     {
       "matchPackageNames": [
-        "containers/crun"
+        "containers/crun",
+        "rd235/nsutils",
+        "virtualsquare/s2argv-execs"
       ],
       "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)(\\.(?<patch>\\d+))?$"
     },
@@ -57,7 +59,8 @@
     },
     {
       "matchPackageNames": [
-        "docker/compose"
+        "docker/compose",
+        "shadow-maint/shadow"
       ],
       "extractVersion": "^v?(?<version>.+)$"
     },
@@ -163,6 +166,7 @@
         "opencontainers/umoci",
         "openSUSE/catatonit",
         "rancher/kim",
+        "rd235/cado",
         "regclient/regclient",
         "rootless-containers/rootlesskit",
         "rootless-containers/slirp4netns",
