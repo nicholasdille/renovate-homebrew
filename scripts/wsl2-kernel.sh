@@ -3,7 +3,7 @@ set -o errexit
 
 DATASOURCE=github-releases
 REPO=microsoft/WSL2-Linux-Kernel
-VERSION=5.10.60.1
+VERSION=5.10.74.3
 
 PREFIX="${HOME}/.local"
 mkdir -p "${PREFIX}/src"
