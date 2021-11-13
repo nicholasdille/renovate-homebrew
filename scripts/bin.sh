@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=marcosnils/bin
-VERSION=0.9.1
+VERSION=0.9.2
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
