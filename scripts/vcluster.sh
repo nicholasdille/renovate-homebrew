@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=loft-sh/vcluster
-VERSION=0.4.3
+VERSION=0.4.4
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
