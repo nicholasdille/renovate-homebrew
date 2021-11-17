@@ -2,7 +2,7 @@
 
 DATASOURCE=github-tags
 REPO=anuvu/stacker
-VERSION=0.14.0
+VERSION=0.15.1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
