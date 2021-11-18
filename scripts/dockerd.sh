@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=moby/moby
-VERSION=20.10.10
+VERSION=20.10.11
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
