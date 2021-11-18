@@ -2,7 +2,7 @@
 
 DATASOURCE=github-tags
 REPO=docker/cli
-VERSION=20.10.10
+VERSION=20.10.11
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
