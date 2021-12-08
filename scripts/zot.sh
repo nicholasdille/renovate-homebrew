@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=anuvu/zot
-VERSION=1.3.4
+VERSION=1.3.5
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
