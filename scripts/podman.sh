@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=containers/podman
-VERSION=3.4.3
+VERSION=3.4.4
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
