@@ -142,6 +142,7 @@
         "google/trillian",
         "homeport/dyff",
         "homeport/havener",
+        "jetstack/cert-manager",
         "jpillora/chisel",
         "jstarks/npiperelay",
         "kubermatic/kubeone",
