@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=vmware-tanzu/carvel-kbld
-VERSION=0.31.0
+VERSION=0.32.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
