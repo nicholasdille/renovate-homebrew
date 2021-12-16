@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DATASOURCE=github-releases
+DATASOURCE=github-tags
 REPO=moby/moby
 VERSION=20.10.11
 
