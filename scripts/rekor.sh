@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=sigstore/rekor
-VERSION=0.3.0
+VERSION=0.4.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
