@@ -118,6 +118,7 @@
         "containers/image",
         "containers/podman",
         "containers/storage",
+        "containers/youki",
         "ContainerSSH/ContainerSSH",
         "crazy-max/artifactory-cleanup",
         "crazy-max/diun",
