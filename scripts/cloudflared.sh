@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=cloudflare/cloudflared
-VERSION=2021.12.4
+VERSION=2022.1.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
