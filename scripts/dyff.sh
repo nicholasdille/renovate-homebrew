@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=homeport/dyff
-VERSION=1.4.6
+VERSION=1.4.7
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
