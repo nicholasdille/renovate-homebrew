@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=fsaintjacques/semver-tool
-VERSION=3.2.0
+VERSION=3.3.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
