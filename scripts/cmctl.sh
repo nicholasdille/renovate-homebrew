@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=jetstack/cert-manager
-VERSION=1.6.1
+VERSION=1.7.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
