@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=firecracker-microvm/firecracker
-VERSION=0.25.2
+VERSION=1.0.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
