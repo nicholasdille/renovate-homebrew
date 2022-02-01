@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=crra/mp3binder
-VERSION=4.0.0
+VERSION=5.0.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
