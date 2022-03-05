@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=regclient/regclient
-VERSION=0.3.10
+VERSION=0.4.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
