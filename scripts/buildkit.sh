@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=moby/buildkit
-VERSION=0.9.3
+VERSION=0.10.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
