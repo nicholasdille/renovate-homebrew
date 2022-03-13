@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=loft-sh/loft
-VERSION=2.1.4
+VERSION=2.1.5
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
