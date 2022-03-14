@@ -143,6 +143,7 @@
         "google/trillian",
         "homeport/dyff",
         "homeport/havener",
+        "ipfs/go-ipfs",
         "jetstack/cert-manager",
         "jpillora/chisel",
         "jstarks/npiperelay",
