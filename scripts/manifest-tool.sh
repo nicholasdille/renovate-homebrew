@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=estesp/manifest-tool
-VERSION=2.0.0
+VERSION=2.0.3
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
