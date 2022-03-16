@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=vmware-tanzu/carvel-imgpkg
-VERSION=0.26.0
+VERSION=0.27.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
