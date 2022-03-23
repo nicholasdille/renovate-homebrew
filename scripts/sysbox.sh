@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=nestybox/sysbox
-VERSION=0.4.1
+VERSION=0.5.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
