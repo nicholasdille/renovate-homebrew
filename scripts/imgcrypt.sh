@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=containerd/imgcrypt
-VERSION=1.1.1
+VERSION=1.1.4
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
