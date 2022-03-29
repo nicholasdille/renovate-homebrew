@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=opencontainers/runc
-VERSION=1.1.0
+VERSION=1.1.1
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
