@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=aquasecurity/kube-bench
-VERSION=0.6.6
+VERSION=0.6.7
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
