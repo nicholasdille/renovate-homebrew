@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=kubernetes-sigs/cri-tools
-VERSION=1.23.0
+VERSION=1.24.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
