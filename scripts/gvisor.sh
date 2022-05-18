@@ -2,7 +2,7 @@
 
 DATASOURCE=github-tags
 REPO=google/gvisor
-VERSION=20220510.0
+VERSION=20220516.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
