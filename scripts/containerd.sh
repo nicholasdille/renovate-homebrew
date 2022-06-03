@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=containerd/containerd
-VERSION=1.6.4
+VERSION=1.6.5
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
