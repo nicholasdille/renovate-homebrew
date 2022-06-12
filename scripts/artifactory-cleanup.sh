@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=crazy-max/artifactory-cleanup
-VERSION=1.5.0
+VERSION=1.6.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
