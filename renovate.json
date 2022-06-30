@@ -125,7 +125,7 @@
         "crazy-max/yasu",
         "cri-o/cri-o",
         "danielb42/kubeswitch",
-        "deislabs/oras",
+        "oras-project/oras",
         "distribution/distribution",
         "docker/app",
         "docker/buildx",
