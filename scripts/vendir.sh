@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=vmware-tanzu/carvel-vendir
-VERSION=0.28.1
+VERSION=0.29.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
