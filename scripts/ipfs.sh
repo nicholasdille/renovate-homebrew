@@ -2,7 +2,7 @@
 
 DATASOURCE=github-releases
 REPO=ipfs/go-ipfs
-VERSION=0.13.1
+VERSION=0.14.0
 
 brew bump-formula-pr \
     "--version=${VERSION}" \
